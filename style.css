@@ -1,0 +1,41 @@
+#textbox{
+  height:300px;
+  background-color: rgb(300,200,200);
+ border-radius: 10px
+}
+.namebox{
+  margin-left: 20px;
+   position: relative;
+  width: 200px;
+  font-size:20px;
+  border-width:5px;
+}
+body{
+   font-family: "Zen Maru Gothic", serif;
+  font-weight: 40px;
+  font-style: normal;
+ background-color: rgb(300,250,230);
+}
+#submitbutton{
+  display:none;
+}
+#submitbuttonlabel{
+  font-size:20px;
+  border-width:23px;
+}
+#button{
+  border: 1px solid;
+  width: 50px;
+  padding:2px;
+  margin:10px;
+  margin-left:20px;
+  padding-left:7px;
+}
+#button:hover{
+  transition:0.3s;
+  background-color: rgb(300,150,150);
+  
+}
+#input{
+    visibility: visible;
+}
