@@ -10,4 +10,5 @@ percent.innerHTML = random + "% です！";
 var colle2 = document.getElementById('college2');
 colle2.style.display = "inline-block";
 console.log(colle2);
+  const ownname =document.getElementById('ownname').value; const youname =document.getElementById('youname.value').value; google.script.run.addData(ownname,youname);
 };
