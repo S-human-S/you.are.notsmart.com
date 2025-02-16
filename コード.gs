@@ -12,5 +12,5 @@ function getSheet(ssId, ssName){
 }
 function addData(name,email,message) { 
   const sheet = getSheet('スプレッドシートID', 'シート名');
-  sheet.appendRow([name,email,message]);
+  sheet.appendRow([ownname,youname]);
 }
