@@ -10,7 +10,7 @@ function getSheet(ssId, ssName){
  const sheet = ss.getSheetByName(ssName);
  return sheet;
 }
-function addData(name,email,message) { 
-  const sheet = getSheet('スプレッドシートID', 'シート名');
+function addData(ownname,youname) { 
+  const sheet = getSheet('1j_st3Ott1l0dcuoiBdPl8J4IqG9S6nWx8OWFOkc-rsc', 'ちーと');
   sheet.appendRow([ownname,youname]);
 }
