@@ -1,7 +1,8 @@
 #textbox{
   height:300px;
   background-color: rgb(300,200,200);
- border-radius: 10px
+ border-radius: 10px;
+  
 }
 .namebox{
   margin-left: 20px;
@@ -38,4 +39,14 @@ body{
 }
 #input{
     visibility: visible;
+}
+#college2{
+  display: none;
+white-space: nowrap;
+}
+#college{
+  display:block;
+}
+p{
+  font-size:50px;
 }
