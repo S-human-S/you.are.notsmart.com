@@ -1,9 +1,13 @@
 function unV(){
-  let info = document.getElementById('college');
+
+  var info = document.getElementById('college');
   info.style.display = "none";
-document.getElementById('college2');
-  info.style.display = "block";
+  console.log(info);
+
 let random = Math.floor( Math.random() * 101 );
-let percent = document.getElementById('P');
-P.textcontent = random + "%";
-}
+  var percent = document.getElementById('P');
+percent.innerHTML = random + "% です！";
+var colle2 = document.getElementById('college2');
+colle2.style.display = "inline-block";
+console.log(colle2);
+};
